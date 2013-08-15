@@ -13,10 +13,10 @@ require('routes/IndexRoute');
 require('routes/TablesRoute');
 
 // ===== Store =====
-/*App.Store = DS.Store.extend({
-	revision: 12,
+App.Store = DS.Store.extend({
+	revision: 11,
 	adapter: 'DS.FixtureAdapter'
-});*/
+});
 
 // ===== Models =====
 require('models/Table');
@@ -26,7 +26,7 @@ require('models/Table');
 
 // ===== Controllers =====
 
-
+require('controllers/TablesController');
 // ===== Template Helpers =====
 
 // ===== Templates =====
