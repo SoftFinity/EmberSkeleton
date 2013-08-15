@@ -4,16 +4,22 @@ var App;
 App = require('app');
 
 // ===== Router =====
-App.Router.map(function() {});
+App.Router.map(function() {
+	this.resource('tables'); 
+});
 
 // ===== Routes =====
 require('routes/IndexRoute');
+require('routes/TablesRoute');
 
 // ===== Store =====
-
+/*App.Store = DS.Store.extend({
+	revision: 12,
+	adapter: 'DS.FixtureAdapter'
+});*/
 
 // ===== Models =====
-
+require('models/Table');
 
 // ===== Views =====
 
@@ -27,3 +33,6 @@ require('routes/IndexRoute');
 require('templates/application');
 
 require('templates/index');
+
+require('templates/tables');
+
