@@ -1,8 +1,8 @@
 {
-  "author": "Giovanni Collazo",
-  "name": "brunch-with-ember-reloaded",
-  "description": "A new and up-to-date Brunch skeleton for developing Ember applications",
-  "version": "0.0.3",
+  "author": "Bradley Trager",
+  "name": "EmberBrunch",
+  "description": "Ember Brunch skeleton with javascript, sass and foundation",
+  "version": "0.0.1",
   "homepage": "",
   "repository": {
     "type": "git",
