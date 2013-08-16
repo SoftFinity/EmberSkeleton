@@ -2,7 +2,7 @@
 Brunch starter project that uses ember, javascript, compass, and foundation 
 
 ## Prerequisites
-Install node (http://nodejs.org/)
+* Install node (http://nodejs.org/)
 
 ## Install Brunch
 * Install brunch.io: `npm install -g brunch`
