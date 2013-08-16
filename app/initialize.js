@@ -5,7 +5,9 @@ App = require('app');
 
 // ===== Router =====
 App.Router.map(function() {
-	this.resource('tables'); 
+	this.resource('tables', function(){
+		this.resource('table', {path: ':table_id'});
+	}); 
 });
 
 // ===== Routes =====
@@ -14,7 +16,7 @@ require('routes/TablesRoute');
 
 // ===== Store =====
 App.Store = DS.Store.extend({
-	revision: 11,
+	revision: 13,
 	adapter: 'DS.FixtureAdapter'
 });
 
@@ -31,8 +33,8 @@ require('controllers/TablesController');
 
 // ===== Templates =====
 require('templates/application');
-
 require('templates/index');
-
 require('templates/tables');
+require('templates/_tableMenu');
+require('templates/table');
 

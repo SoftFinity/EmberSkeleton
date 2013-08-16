@@ -1,9 +1,7 @@
-var App;
+var App = require('app');
 
-App = require('app');
-
-module.exports = App.TablesRoute = Ember.Route.extend({
-  model: function() {
-  	return App.Table.find();
-  }
+App.TablesRoute = Ember.Route.extend({
+	model: function() {
+		return App.Table.find();
+	}
 });
