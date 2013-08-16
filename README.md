@@ -3,6 +3,8 @@ Install node (http://nodejs.org/)
 
 #Install Brunch
 * Install brunch.io: `npm install -g brunch`
+
+#Install Compass and Zurb Foundation for Styles
 * Install compass: `gem install compass`
 * Install zurb-foundation: `gem install zurb-foundation`
 
