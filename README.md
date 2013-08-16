@@ -1,5 +1,5 @@
 #Prerequisites
-Install node 
+Install node (http://nodejs.org/)
 
 #Install Brunch
 *Install brunch.io: `npm install -g brunch`
