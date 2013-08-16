@@ -13,7 +13,7 @@ Brunch starter project that uses ember, javascript, compass, and foundation
 
 ## New Brunch Project
 * `brunch new https://github.com/bradleytrager/EmberSkeleton.git [project name]`
-* `cd project name`
+* `cd [project name]`
 * `brunch build`
 * `brunch watch --server`
 
